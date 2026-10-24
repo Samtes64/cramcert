@@ -1,0 +1,37 @@
+{
+  "name": "cramcert",
+  "version": "1.0.0",
+  "description": "Interactive CLI study guide compiler and structured PDF generator for certification exams",
+  "main": "cli.ts",
+  "bin": {
+    "cramcert": "./cli.ts"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "tsx cli.ts",
+    "cli": "tsx cli.ts",
+    "test:all": "tsx test-all-exams.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "cramcert",
+    "examtopics",
+    "certification",
+    "study-guide",
+    "pdf-generator",
+    "playwright",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "pdf-lib": "^1.17.1",
+    "playwright": "^1.61.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
