@@ -110,7 +110,7 @@ Standard PDF generators fail on discussion threads because long community debate
 1. **Node.js**: Version 18.0.0 or higher.
 2. **Playwright Chromium**: Can be installed via `npx playwright install chromium` or uses system Chromium (`/usr/bin/chromium`).
 3. **ExamTopics Dataset**:
-   - Download the `examtopics-data` archive from Telegram: [https://t.me/thesam_ple_resources/3](https://t.me/thesam_ple_resources/3)
+   - Download the `examtopics-data` archive from Telegram: [https://t.me/thesam_ple_resources/6](https://t.me/thesam_ple_resources/6)
    - Extract the archive so that the `examtopics-data/` folder sits in the root of this repository:
      ```text
      cramcert/

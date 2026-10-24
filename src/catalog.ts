@@ -15,7 +15,7 @@ export function getVendors(): VendorInfo[] {
   if (!fs.existsSync(DATA_ROOT)) {
     throw new Error(
       `Dataset directory not found at: ${DATA_ROOT}\n` +
-      `Please download 'examtopics-data' from https://t.me/thesam_ple_resources/3 and place it in the project root.`
+      `Please download 'examtopics-data' from https://t.me/thesam_ple_resources/6 and place it in the project root.`
     );
   }
 
